@@ -9,7 +9,7 @@ module.exports = (sequelize) => {
       type: Sequelize.STRING,
       validate: {
         notEmpty: {
-          msg: "Error: The book's title is required."
+          msg: "-The book's title is required."
         }
       }
     },
@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
         type: Sequelize.STRING,
         validate: {
             notEmpty: {
-              msg: "Error: The author's name is required."
+              msg: "-The author's name is required."
             }
           }
     },

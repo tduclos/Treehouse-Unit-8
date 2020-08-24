@@ -1,0 +1,7 @@
+  
+if(errors)
+  h2.errors There's a problem with your entry:
+  ul.errors
+    each error in errors
+      li
+        =error.message

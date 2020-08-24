@@ -1,6 +1,7 @@
 extends layout 
 
 block content
+    include validation-error
     h1 Update Book
     form(method='post' action='/books/' + book.id)
       p
